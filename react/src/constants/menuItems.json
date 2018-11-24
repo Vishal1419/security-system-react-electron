@@ -1,0 +1,33 @@
+[
+  {
+    "key": "users",
+    "icon": "user",
+    "text": "Users",
+    "path": "/"
+  },
+  {
+    "key": "licenses",
+    "icon": "key",
+    "text": "Licenses",
+    "children": [
+      {
+        "key": "all",
+        "icon": "chevron-right",
+        "text": "All",
+        "path": "/licenses/all"
+      },
+      {
+        "key": "unused",
+        "icon": "chevron-right",
+        "text": "Unused",
+        "path": "/licenses/unused"
+      },
+      {
+        "key": "used",
+        "icon": "chevron-right",
+        "text": "Used",
+        "path": "/licenses/used"
+      }
+    ]
+  }
+]

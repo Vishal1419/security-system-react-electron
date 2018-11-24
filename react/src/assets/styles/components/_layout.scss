@@ -1,0 +1,23 @@
+html, body, #root, .App, .App > div {
+  height: 100%;
+}
+
+.app {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  main {
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.full-screen {
+  height: 100%;
+}
+
+.no-data {
+  padding-top: 30px;
+}

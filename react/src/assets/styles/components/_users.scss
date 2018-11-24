@@ -1,0 +1,36 @@
+.users {
+  height: 100%;
+  .card {
+    border: 0;
+    .user-info {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      .mobile {
+        margin-left: 50px;
+      }
+      .badge {
+        margin-left: auto;
+        max-width: 20px;
+        background-color: #bbbccc;
+      }
+    }
+    .user-licenses {
+      display: flex;
+      flex-wrap: wrap;
+      .license-info-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // margin-bottom: 10px;
+        .license-info {
+          padding: 5px 10px;
+          margin: 10px 20px;
+          border: 1px solid #bbbccc;
+          border-radius: 5px;
+          background-color: #fffeee;
+        }
+      }
+    }
+  }
+}
